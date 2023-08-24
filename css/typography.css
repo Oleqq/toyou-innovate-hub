@@ -1,0 +1,204 @@
+/* import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+/* import Bariol font */
+@font-face {
+    font-family: 'Bariol Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bariol Bold'), url('../assets/fonts/Bariol_Bold.woff') format('woff');
+    }
+
+
+.section__title {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Bariol Bold;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section__paragraph {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section__subtitle {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section__tip {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card__subtitle-bold {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card__subtitle {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo__title {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+/* ```````````````````````~~~~~ hovers ~~~~~``````````````````` */
+
+.ui-button-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Bariol Bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.ui-button-primary:hover {
+    color: #00A3FF;
+
+}
+.button__text-white {
+    color: #FFF;
+    text-align: center;
+    font-family: Bariol Bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button__text-white:hover {
+    color: #00A3FF;
+}
+.button__text-blue {
+    color: #00A3FF;
+    text-align: center;
+    font-family: Bariol Bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button__text-blue:hover {
+    color: #fff;
+}
+
+.ui-button-secondary {
+    cursor: pointer;
+}
+
+body > section.choice > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-white:hover{
+    background-color: #fff;
+    border: 3px solid #00A3FF;
+    transition: .2s ease-in;
+}
+
+body > section.choice > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-blue:hover{
+    background-color: #00A3FF;
+    border: 3px solid #00A3FF;
+    transition: .2s ease-in;
+}
+
+/* ``````````````````````````~~~~~ hovers ~~~~~``````````````````````` */
+
+
+.faq__answer {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.benefits__list > li {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.popup__label {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.popup__title {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Bariol Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+input {
+    color: #1E1E1E;
+    border: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.popup__tip {
+    color: #8A8A8A;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.popup__subtitle {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

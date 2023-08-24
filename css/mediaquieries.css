@@ -1,0 +1,163 @@
+@media screen and (max-width:991px) {
+    .benefits__img {
+        justify-content: center !important;
+        margin-top: 200px !important;
+    }
+    .start__wrapper {
+        align-items: center;
+    }
+    .start__img {
+        justify-content: center;
+    }
+    .start__row {
+        gap: 100px;
+    }
+    .hero__left > img {
+        display: none;
+    }
+    .hero__right {
+        width: 80% !important;
+    }
+    .button__wrapper-secondary {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .hero__row {
+        justify-content: center;
+        gap: 50px;
+    }
+    .hero {
+        padding-bottom: 150px !important;
+    }
+    .finish-images {
+        display: none !important;
+    }
+    body > section.finish-two > div > div.row > div:nth-child(1) > svg {
+        display: block !important;
+    }
+    body > section.finish-images > div > div > div:nth-child(2) > div {
+        display: none;
+    }
+}
+@media screen and (max-width:767px) {
+    #hero > div > div.row.hero__row > div.col-lg-6.section__center > div > div.section__title {
+        font-size: 65px;
+    }
+    .hero__right {
+        width: 80% !important;
+    }
+    .hero {
+        padding-bottom: 100px !important;
+    }
+}
+@media screen and (max-width:545px) {
+    .start__card-top {
+        width: unset !important;
+    }
+    .start__card-bot {
+        width: unset !important;
+    }
+}
+@media screen and (max-width:500px) {
+    #hero > div > div.row.hero__row > div.col-lg-6.section__center > div > div.section__title {
+        font-size: 45px;
+    }
+    #hero > div > div.row.hero__row > div.col-lg-6.section__center > div > div.section__paragraph {
+        font-size: 25px;
+    }
+    .ui-button-primary {
+        font-size: 20px !important;
+        padding: 20px 50px !important;
+    }
+    body > section.choice > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-white {
+        font-size: 25px;
+    }
+    body > section.choice > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-blue {
+        font-size: 25px;
+    }
+    .benefits__img > img {
+        height: 400px;
+    }
+    .start__img > img {
+        height: 400px;
+    }
+    .team__card > img {
+        height: 220px;
+    }
+    .team__row {
+        gap: 20px;
+    }
+    .finish__img > img {
+        height: 400px;
+    }
+    .ui-particles-blue {
+        bottom: -35px !important;
+        left: -65px !important;
+    }
+    .section__subtitle {
+        font-size: 25px !important;
+    }
+    .accordionTitle, .accordion__Heading {
+        font-size: 20px !important;
+    }
+    .faq__answer {
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:400px) {
+    body > section.finish-two > div > div.row > .col-lg-6 > .notification__card {
+        padding: 30px;
+    }
+    body > section.benefits-two > div > div > div {
+        padding: 20px;
+    }
+    body > section.benefits-two > div > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-white {
+        padding: 10px;
+    }
+    body > section.benefits-two > div > div > div > div.button__wrapper-secondary > a.ui-button-secondary.button__text-blue {
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:365px) {
+    .ui-particles-blue > svg {
+        width: 200px;
+    }
+    .ui-particles-blue {
+        bottom: -55px !important;
+        left: 0px !important;
+    }
+    #hero > div > div.row.hero__row > div.col-lg-6.section__center > div > div.section__title {
+        font-size: 35px;
+    }
+    #hero > div > div.row.hero__row > svg {
+        width: 300px;
+    }
+    .start__card-top {
+        padding: 30px 15px 50px 15px !important;
+    }
+    #show-sections-1 {
+        padding: 15px !important;
+    }
+    #show-sections-2 {
+        padding: 15px !important;
+    }
+
+}
+@media screen and (max-width:393px) {
+    #show-sections-1 {
+        padding: 15px !important;
+    }
+    #show-sections-2 {
+        padding: 15px !important;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .section__title {
+        font-size: 40px !important;
+    }
+    .section__subtitle {
+        font-size: 15px !important;
+    }
+}

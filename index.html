@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Загнеев Олег Игоревич">
+
+    <meta name="author" content="kwork.ru/user/centuria">
+
+    <meta name="author" content="github.com/oleqq">
+
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToYou Innovate Hub</title>
+
+    <!----- Connect local files ------>
+    <link rel="stylesheet" href="./css/mediaquieries.css">
+    
+    <link rel="stylesheet" href="./css/typography.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!----- Connect Bootstrap CDN ------>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+</head>
+
+<body>
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" style="width: 90px; height: 80px;" alt="">
+                <div class="logo__title">Innovate Hub</div>
+            </div>
+          <div class="row hero__row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="344" height="101" viewBox="0 0 344 101" fill="none">
+                <path d="M121.449 43.2008L116.136 53L101.985 44L93.8371 41.681C87.6638 39.9239 81.1398 39.8021 74.9053 41.3277C60.7909 44.7814 50.0025 56.1739 47.3222 70.4555L46.8446 73H44.716C29.5596 73 15.3811 80.4851 6.83151 93L0 101H40.9891H446C441.525 90.5193 435.085 80.8161 427.126 72.6604L426.329 71.8435C421.891 67.2964 416.942 63.278 411.581 59.8682L406.207 56.4502C396.502 50.2781 385.239 47 373.738 47C364.145 47 354.69 49.2812 346.152 53.6555L345.84 53.8153C343.001 55.2696 340.279 56.9409 337.698 58.8144L318.153 73L307.63 64.2709C301.186 58.9256 293.076 56 284.704 56C277.259 56 269.999 58.3137 263.927 62.621L260.573 65L254.8 47.2529C252.167 39.1593 248.008 31.6452 242.547 25.117C232.742 13.3964 219.207 5.40253 204.209 2.47538L200.472 1.74598C191.192 -0.0652307 181.638 0.0555165 172.407 2.10069C158.044 5.28291 145.078 12.985 135.413 24.0767L132.023 27.9668C127.95 32.6414 124.404 37.7502 121.449 43.2008Z" fill="white"/>
+            </svg>
+            <div class="col-md-3 hero__left"> <!-- колонка 1 -->
+              <img src="./assets/img/man-img.png" class="img-fluid" alt="Image 1">
+            </div>
+            <div class="col-lg-6 section__center">  <!-- колонка 2 -->
+                <div class="hero__wrapper">
+                    <div class="section__title">
+                        Space for the implementation of ideas
+                    </div>
+                    <div class="section__paragraph">
+                        Here any employee can submit and implement an idea that will change the taste of the city for the better
+                    </div>
+                    <div class="button__wrapper">
+                        <a class="ui-button-primary callback" onclick="openModal()">have an idea</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 hero__right">  <!-- колонка 3 -->
+              <img src="./assets/img/phone-img.png" class="img-fluid" alt="Image 2">
+            </div>
+          </div>
+        </div>
+    </section>
+      
+    <section class="choice">
+        <div class="container">
+            <div class="choice__wrapper">
+                <div class="section__subtitle">Your future path depends on whether you want to lead the project yourself or are only ready to submit an idea.</div>
+                <div class="button__wrapper-secondary">
+                    <a id="show-sections-1" class="ui-button-secondary button__text-blue">want to lead</a>
+                    <a id="show-sections-2" class="ui-button-secondary button__text-blue">want to give an idea</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start">
+        <div class="container">
+            <div class="row start__row">
+                <div class="col-lg-6 start__img">
+                    <img src="./assets/img/phone-single-img.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="start__wrapper">
+                        <div class="start__card-top">
+                            <div class="section__title">start</div>
+                            <div class="section__subtitle">you give an idea</div>
+                            <ul class="start__list">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">business</div>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">optimization</div>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">new service</div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="start__card-bot">
+                                <div class="section__subtitle">you’ll get into the training program</div>
+                                <ul class="benefits__list">
+                                    <li>How to prepare a project for protection?</li>
+                                    <li>What will we do and how will we measure the result?</li>
+                                    <li>How to prepare a project for protection?</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="start-two">
+        <div class="container">
+            <div class="row start__row">
+                <div class="col-lg-6 start__img">
+                    <img src="./assets/img/phone-single-img.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="start__wrapper">
+                        <div class="start__card-top">
+                            <div class="section__title">start</div>
+                            <div class="section__subtitle">you give an idea</div>
+                            <ul class="start__list">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">business</div>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">optimization</div>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                        <circle cx="25" cy="25" r="23" stroke="#00A3FF" stroke-width="4"/>
+                                    </svg>
+                                    <div class="card__subtitle-bold">new service</div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="notification__card-secondary">
+                            <div class="section__subtitle">You describe and<br>defend your project</div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="benefits">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="benefits__wrapper">
+                        <div class="benefits__card">
+                            <div class="section__subtitle">you start testing the hypothesis of the value of your project</div>
+                            <ul class="benefits__list">
+                                <li>You collide your idea with reality</li>
+                                <li>You refine it to meet the real needs of the client</li>
+                                <li>You conduct experiments with a prototype of the solution</li>
+                                <li>You accurately answer the question whether there is value</li>
+                            </ul>
+                        </div>
+                        <div class="notification__card">
+                            <div class="section__subtitle">You describe and<br>defend your project</div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 benefits__img">
+                    <img src="./assets/img/phone-single-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-two">
+        <div class="container">
+            <div class="col-xl-0 benefits-two-wrapper">
+                <div class="notification__card">
+                    <div class="section__subtitle" style="margin-bottom: 30px;">An idea within the<br>existing direction?</div>
+                    <div class="button__wrapper-secondary">
+                        <a class="ui-button-secondary button__text-white">yes</a>
+                        <a class="ui-button-secondary button__text-blue">no</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="row team__row">
+                <div class="section__title">your help</div>
+              <div class="col-md-3 team__card">
+                <img src="./assets/img/man-single1.png" alt="Image 1" class="img-fluid">
+                <div class="section__subtitle">tracker</div>
+              </div>
+              <div class="col-md-3 team__card">
+                <img src="./assets/img/man-single2.png" alt="Image 2" class="img-fluid">
+                <div class="section__subtitle">analyst</div>
+              </div>
+              <div class="col-md-3 team__card">
+                <img src="./assets/img/man-single3.png" alt="Image 3" class="img-fluid">
+                <div class="section__subtitle">tutor</div>
+              </div>
+              <div class="col-md-3 team__card">
+                <img src="./assets/img/man-single4.png" alt="Image 4" class="img-fluid">
+                <div class="section__subtitle">expert</div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="finish">
+        <div class="container">
+            <div class="finish__wrapper">
+                <div class="section__title">finish</div>
+                <div class="finish__img"><img src="./assets/img/phone-single-img.png" alt="">
+                    <div class="ui-particles-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="328" height="196" viewBox="0 0 628 196" fill="none">
+                            <path d="M91.7577 75.7378L90.685 76.7118C84.2573 82.5483 79.254 89.7816 76.0602 97.855L63.8824 128.639L50.498 124.398C33.8373 119.12 15.7107 125.718 6.34129 140.471C-2.76731 154.813 -1.40494 173.429 9.69465 186.293L18.0706 196H73.0593H616.4C630.623 177.093 631.756 151.386 619.252 131.3L616.525 126.919C608.802 114.515 597.114 105.084 583.358 100.158L571.665 95.9715C560.848 92.0979 549.444 90.1176 537.953 90.1176H529.318C510.206 90.1176 491.608 96.3091 476.31 107.765C476.31 87.0641 465.521 67.8602 447.841 57.0923L446.419 56.226C417.455 38.5857 379.702 47.3541 361.478 75.954L358.882 80.0278L356.138 60.8101C353.883 45.0188 345.852 30.625 333.598 20.4128C326.694 14.6588 318.662 10.4126 310.019 7.94704L297.414 4.35126C278.329 -1.0929 258.056 -0.735296 239.175 5.37855L231.955 7.71648C223.832 10.347 216.167 14.2256 209.236 19.2131L204.988 22.2702C183.432 37.7821 171.941 63.7308 174.941 90.1176L170.012 83.4546C160.015 69.9428 144.203 61.9722 127.395 61.9722C114.218 61.9722 101.513 66.8797 91.7577 75.7378Z" fill="#00A3FF"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card__subtitle">
+                    А fast track for experienced leaders
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="finish-two">
+        <div class="container">
+            <div class="section__title" style="margin-bottom:60px;">Finish</div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="notification__card">
+                        <div class="section__subtitle">
+                            We find a team and launch the project
+                        </div>
+                    </div>
+                    <svg style="position: relative;left:20px;" xmlns="http://www.w3.org/2000/svg" width="174" height="58" viewBox="0 0 174 58" fill="none">
+                        <path d="M47.8495 23.8752L45.3085 30.7059L39.7877 25.5882L37.7622 24.748C34.6551 23.4589 31.1797 23.3709 28.0112 24.5009C23.2058 26.2148 19.7691 30.4809 19.1175 35.541L18.2757 42.0784C12.0024 42.0784 6.29512 45.7065 3.63272 51.3868L2.66521 53.451L0 58H15.9912H174L173.518 56.3556C172.071 51.4155 169.878 46.7256 167.013 42.4482L165.647 40.407C164.367 38.4951 162.868 36.7393 161.18 35.1751L157.667 31.9189C154.46 28.9459 150.249 27.2941 145.875 27.2941C142.135 27.2941 138.494 28.5034 135.497 30.7415L134.673 31.3567C133.733 32.0588 132.855 32.8405 132.049 33.6932L124.123 42.0784L119.318 36.2701C117.297 33.8264 114.291 32.4118 111.12 32.4118C108.236 32.4118 105.476 33.582 103.472 35.6546L101.659 37.5294L98.9384 25.3415C98.2177 22.1127 97.0137 19.0113 95.3669 16.1421L93.4522 12.8059C90.4138 7.51189 85.4275 3.61431 79.5565 1.94419L79.0812 1.80896C74.9352 0.629563 70.5325 0.707044 66.4306 2.03159C61.4052 3.65436 57.1406 7.04795 54.4308 11.5806L50.98 17.3527C49.7399 19.427 48.692 21.6102 47.8495 23.8752Z" fill="#00A3FF"/>
+                    </svg>
+                </div>
+                <div class="col-lg-6">
+                    <div class="notification__card">
+                        <div class="section__subtitle">
+                            together with the experts of the directions, evaluate the possibility and timing of implementation
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="finish-images">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="finish__images-wrapper">
+                        <img src="./assets/img/man-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="finish__images-wrapper">
+                        <img src="./assets/img/man-img2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="faq__wrapper">
+                    <div class="section__title">faq</div>
+                    <div class="accordion">
+                      <dl>
+                        <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">What ideas can be submitted?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                          <p class="faq__answer">You can submit absolutely any idea: we do not want to limit employees. But we must understand that not every idea will be realized in the end.
+
+                            Whether we can implement the idea depends on many factors. Here are some of them: 
+                            
+                             • Compliance of the idea with the requirements of the legislation of the Russian Federation;
+                             • Compliance of the idea with the values of Vkusville;
+                             • Novelty of the idea: are they unique or are they already being implemented/have there been experiments before;
+                             • For business/optimization ideas — the presence of economic potential;
+                             • For ideas that are strongly tied to the processes of existing directions, an expert assessment of the leaders and teams of these directions will be important (for example, Retail, Loyalty, Technology, Ways, URZ, etc.)
+                            
+                             Submit any ideas and get feedback — let this be the first step to finding the very idea that will take off!</p>
+                          <p class="faq__answer">Whether we can implement the idea depends on many factors. Here are some of them:</p>
+                        </dd>
+                        <dt>
+                            <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">I just want to share my idea, but I'm not ready to implement it. Can expect to be rewarded?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                          <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                          <p class="faq__answer">Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                        </dd>
+                        <dt>
+                            <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">What are the requirements for the role of a project leader?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                            <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                            <p class="faq__answer">Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                        </dd>
+                        <dt>
+                            <a href="#accordion4" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">What does the idea selection process look like?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+                            <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                            <p class="faq__answer">Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                        </dd>
+                        <dt>
+                            <a href="#accordion5" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">What could possibly go wrong?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
+                            <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                            <p class="faq__answer">Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                        </dd>
+                        <dt>
+                            <a href="#accordion6" aria-expanded="false" aria-controls="accordion6" class="accordion-title accordionTitle js-accordionTrigger">Where to contact if you still have questions?</a>
+                        </dt>
+                        <dd class="accordion-content accordionItem is-collapsed" id="accordion6" aria-hidden="true">
+                            <p class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                            <p class="faq__answer">Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                        </dd>
+                      </dl>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="choice-secondary">
+        <div class="container">
+            <div class="choice-secondary-wrapper">
+                <div class="section__subtitle">Make the first step to the realization of your idea</div>
+                <div class="button__wrapper">
+                    <a class="ui-button-primary" onclick="openModal()">have an idea</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="popup__title">LET’S GET TO KNOW</div>
+
+            <label class="popup__label" for="name">Your First name and surname</label>
+            <input style="margin-bottom: 30px;" type="text" id="name" name="name">
+
+            <label class="popup__label" for="role">Your role in Toyou</label>
+            <input style="margin-bottom: 30px;" type="text" id="role" name="role">
+
+            <label class="popup__label" for="phone">Phone number</label>
+            <label class="popup__tip" for="phone">WhatsApp / Telegram</label>
+            <input style="margin-bottom: 30px;" type="text" id="phone" name="phone">
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">I just want to submit an idea</div>
+            </div>
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">I want to implement my idea myself </div>
+            </div>
+            
+
+            <div class="popup__label" style="text-align: left;margin: 20px 0 35px 0;">Idea</div>
+
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">The idea to save money</div>
+            </div>
+
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">The idea will help you make money</div>
+            </div>
+
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">The idea will help to make the work of employees more convenient/efficient</div>
+            </div>
+
+            <div class="checkbox__wrapper">
+                <input class="checkbox-secondary" type="checkbox" id="idea1" name="idea1">
+                <div class="popup__subtitle">Other</div>
+            </div>
+
+
+            <label class="popup__label" for="phone" style="margin: 20px 0 10px 0;">Description of the idea</label>
+            <label class="popup__tip" for="phone">10-12 sentences</label>
+            <textarea id="description" name="description" rows="4" cols="50" placeholder=""></textarea>
+
+            <br>
+            <button class="ui-button-primary" onclick="uploadFile()">upload a file</button>
+
+            <br>
+            <button class="ui-button-primary" onclick="sendForm()">submit</button>
+            <div class="checkbox__wrapper" style="margin-top:20px;">
+                <input type="checkbox" id="agree" name="agree">
+                <div class="popup__subtitle">I agree to the processing of personal data</div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+<script src="./js/index.js"></script>
+</body>
+</html>
